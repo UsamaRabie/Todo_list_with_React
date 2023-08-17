@@ -1,0 +1,95 @@
+body{
+  background-color: #333;
+color: #ffffff;
+}
+.task{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+input {
+  border: none;
+  border-bottom: #e4685d 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: bisque;
+  margin-right: 20px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.bg-green{
+  background-color: #18ab29;
+}
+.bg-green:hover{
+  background-color: #117c1d
+}
+
+.bg-red{
+  background-color: #c92418;
+}
+.bg-red:hover{
+  background-color: #94261e;
+}
+
+.bg-yellow{
+  background-color: yellowgreen;
+}
+.bg-yellow:hover{
+  background-color: rgb(127, 170, 40);
+}
+.bg-aqua{
+  background-color: aqua;
+}
+
+.bg-aqua:hover{
+  background-color: rgb(51, 187, 187);
+}
+.btn {
+	
+	border-radius:15px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 25px;
+	text-decoration:none;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+.containerRemoveCompleteBtn{
+  text-align: center;
+}
+
+.RemoveCompleteBtn:hover{
+  
+  background-color: #992118;
+}
